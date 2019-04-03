@@ -11,9 +11,14 @@
 <!-- method - what HTTP method (get/post) -->
 
 
-<form>
-	<input type="text" placeholder="username">
-	<input type="password" placeholder="password">
+<form action="https://www.wikipedia.org">
+
+	<label for="username">Email:</label>
+	<input id="username" type="email" placeholder="email address" required>
+
+	<label for="password">Password:</label>
+	<input id="password" type="password" placeholder="password" required>
+	
 	<input type="submit">
 </form>
 
